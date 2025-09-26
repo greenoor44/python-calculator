@@ -65,3 +65,15 @@ while True:
         print('Please enter correct input among these 1/2/3/4/n')
 
 ```
+## My Interpretation
+
+**What the program does (2–3 lines):**
+- … The program defines 4 arithmetic functions: add(), subtract(), multiply(), and divide() that take two numbers as parameters to perform calculations. Then it runs a while loop which takes input from the user. If the user enters 1,2,3, or 4, it performs the specific calculation. Otherwise, if the user wishes to exit the program, he/she enters 'n'. If the user enters any other input, it gives the message to enter correct input.
+**Functions (inputs → outputs):**
+- add(x, y) → takes two numbers x and y and adds them
+- subtract(x, y) → takes two numbers x and y and subtracts them
+- multiply(x, y) → takes two numbers x and y and multiplies them
+- divide(x, y) → takes two numbers x and y and divides them
+
+**Control flow (2–4 lines):**
+-The code begins with a while loop that takes input from the user as 1, 2, 3,4 or n. It then takes two numbers as input from the user.  It then runs an if, elif and else statement that performs the calculation corresponding to the number entered. If input is 1, it adds the two numbers. If 2, it subtracts them, If 3, it multiplies and if 4, it divides them. The program terminates if the user enters n.Otherwise, if the input is other than this, an error message is printed. 
